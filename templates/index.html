@@ -9,9 +9,8 @@
     <h1>{{title}}</h1>
 <nav>
    <h2><a href="{{ url_for('.services')}}">Services</a></h2>
-
    <h2><a href="{{ url_for('.about')}}">About</a></h2>
-
+{{ title|safe }}
 </nav>
 </body>
 </html>
