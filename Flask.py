@@ -1,7 +1,9 @@
+#-*- encoding:utf-8 -*-
+
 from flask import Flask,render_template,request,redirect,url_for,make_response,abort
 from werkzeug.routing import BaseConverter
 from os import path
-from werkzeug.utils import secure_filename
+#from werkzeug.utils import secure_filename
 
 
 class RegexConverter(BaseConverter):
